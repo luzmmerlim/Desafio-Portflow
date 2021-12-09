@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 600 & display = swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  list-style:none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+}
+
+.box-textsimageblue {
+  width: 100%;
+  height: 80vh;
+  background-image: url("assets/laranja\ azul\ recorte.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textone-image {
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: bold;
+  padding-left: 6vw;
+}
+.texttwo-image {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-top: 5vh;
+  padding-left: 6vw;
+}
+
+.logo {
+  padding-left: 5vw;
+}
+
+.caixalogo {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+   
+.caixanav {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5vw;
+}
+.headernav {
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.li-nav {
+  width: 10vw;
+  color: black;
+  font-size: 1rem;
+  font-weight: lighter;
+  padding: 1vw;
+}
+
+.li-nav:hover {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.boximagesmain{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.boximages {
+  padding: 0.1%;
+  display: flex;
+  justify-content: center;
+}
+.mainimage {
+  width: 20%;
+  padding: 0.5%;
+}
+
+.footerbox {
+  width: 100%;
+}
+.footerimage {
+  width: 100%;
+}
+
+
