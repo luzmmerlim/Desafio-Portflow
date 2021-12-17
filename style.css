@@ -18,16 +18,35 @@ header {
   display: flex;
 }
 
+header button{
+  display:none;
+  border: none;
+  background-color: black;
+  width: 200px; 
+}
+
 .box-textsimageblue {
   width: 100%;
   height: 80vh;
-  background-image: url("assets/laranja\ azul\ recorte.png");
+  background-image: url("assets/laranja\ azul.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.box-textsimageblue-mobile {
+  width: 100%;
+  height: 80vh;
+  background-image: url("assets/laranja\ azul\ recorte.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 
 .textone-image {
   color: #fff;
@@ -35,11 +54,25 @@ header {
   font-weight: bold;
   padding-left: 6vw;
 }
+.textone-image-mobile {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 6vw;
+  margin-top:370px;
+}
 .texttwo-image {
   color: #fff;
   font-size: 1.5rem;
   font-weight: lighter;
   padding-top: 5vh;
+  padding-left: 6vw;
+}
+.texttwo-image-mobile { 
+  color: #fff;
+  font-size: 1.0rem;
+  font-weight: lighter;
+  padding-top: 3vh;
   padding-left: 6vw;
 }
 
@@ -95,6 +128,9 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 66px 10% 32px;
+  
+
 }
 .boximages {
   padding: 0.1%;
@@ -102,8 +138,9 @@ header {
   justify-content: center;
 }
 .mainimage {
-  width: 20%;
+  width: 20.73vw;
   padding: 0.5%;
+  
 }
 
 .footerbox {
@@ -113,4 +150,36 @@ header {
   width: 100%;
 }
 
+@media (max-width:375px){
+
+.headernav{
+  display: none;
+}
+.box-textsimageblue {
+  display: none;
+}
+ .box-textsimageblue-mobile{
+   display:flex;
+   
+ }
+
+ .boximages{
+   padding:0;
+   flex-direction: column;
+
+ }
+ .mainimage {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  
+}
+
+header button{
+  display:block;
+} 
+ .boximagesmain{
+   
+ }
+}
 
